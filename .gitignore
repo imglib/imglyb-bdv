@@ -6,3 +6,5 @@ __pycache__
 build
 *.pyc
 imglyb_bdv.egg-info
+.eggs
+dist
