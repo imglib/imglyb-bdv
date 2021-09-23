@@ -23,5 +23,5 @@ setup(
     long_description_content_type='text/markdown',
     license='Simplified BSD License',
     url='https://github.com/imglib/imglyb-bdv',
-    install_requires=['scyjava', 'imglyb>=2.0.0'],
+    install_requires=['scyjava >= 1.3.0', 'imglyb >= 2.0.0'],
 )

@@ -5,7 +5,7 @@ import scyjava
 import threading
 import time
 
-scyjava.config.add_endpoints('sc.fiji:bigdataviewer-vistools:1.0.0-beta-18')
+scyjava.config.endpoints.append('sc.fiji:bigdataviewer-vistools:1.0.0-beta-18')
 scyjava.start_jvm()
 
 BdvFunctions        = imglyb.util.BdvFunctions

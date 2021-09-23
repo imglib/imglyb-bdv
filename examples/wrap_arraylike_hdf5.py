@@ -6,7 +6,7 @@ import scyjava
 import threading
 import time
 
-scyjava.config.add_endpoints('sc.fiji:bigdataviewer-vistools:1.0.0-beta-25')
+scyjava.config.endpoints.append('sc.fiji:bigdataviewer-vistools:1.0.0-beta-25')
 scyjava.start_jvm()
 
 path = '/home/hanslovskyp/Downloads/sample_A_padded_20160501.hdf'
