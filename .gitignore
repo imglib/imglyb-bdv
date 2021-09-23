@@ -1,0 +1,8 @@
+.classpath
+.project
+.settings
+target
+__pycache__
+build
+*.pyc
+imglyb_bdv.egg-info
